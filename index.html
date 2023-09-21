@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="/dist/src/script.js"></script>
+
+    <title>Document</title>
+    <style>
+      #list {
+        list-style: none;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper-tax">
+      <div class="tax-wrp">
+        <p class="headline">Salary for the year</p>
+        <input type="number" min="0" autofocus required id="input-salary" />
+      </div>
+      <div class="tax-wrp">
+        <p>How much taxes do you have to pay in a year</p>
+        <div id="income-tax"></div>
+      </div>
+      <button id="count">count</button>
+    </div>
+  </body>
+</html>
+
+<!-- форма не подключена, есть только js логика -->

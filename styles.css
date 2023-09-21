@@ -1,0 +1,16 @@
+.wrapper-tax {
+  width: 500px;
+  height: 600px;
+  background-color: aquamarine;
+}
+
+.tax-wrp {
+  background-color: rgb(255, 234, 127);
+}
+
+#income-tax {
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 127, 221);
+}
